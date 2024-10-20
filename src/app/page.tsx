@@ -246,6 +246,15 @@ const Page: React.FC = () => {
         <UploadButton />
         {/* <DonateButton /> */}
         <LoginButton />
+        <img
+          src="https://noun-api.com/beta/pfp"
+          alt="Profile"
+          style={{
+            width: '50px',
+            height: '50px',
+            borderRadius: '50%', // Optional: make the image circular
+          }}
+        />
 
       </Box>
 
