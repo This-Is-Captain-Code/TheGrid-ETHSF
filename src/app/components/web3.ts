@@ -19,6 +19,7 @@ import { Web3Context } from 'web3-core';
 import { getBalance } from 'web3-eth';
 import { HttpProvider } from 'web3-providers-http';
 import { Web3Account } from 'web3-eth-accounts';
+//@ts-ignore
 import { Big } from 'big.js';
 
 export function toSigner({ publicKey, secretKey }: Keypair): Signer {

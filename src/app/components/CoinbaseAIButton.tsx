@@ -21,7 +21,6 @@ const CoinbaseAIButton: React.FC = () => {
           padding: '10px 20px', // Optional: adjust padding
         }}
       >
-      >
         Open Coinbase AI
       </Button>
     </Box>
