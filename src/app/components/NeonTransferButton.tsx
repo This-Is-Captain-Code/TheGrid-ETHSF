@@ -13,8 +13,8 @@ const NeonTransferButton = () => {
 
   const handleTransfer = async () => {
     const proxyUrl = 'https://devnet.neonevm.org';
-    const neonWalletAddress = '0x5bf46dd847bc0189bd133f654e6bffa6e9825942667173c9bc3c1dd8231086cb'; // Hardcoded Neon EVM wallet address
-    const solanaPublicKey = new PublicKey('2ZvybgsN4fVq5e6beUefBXhpjXRKKJnnW3Dsn6mdFptk'); // Hardcoded Solana public key
+    const neonWalletAddress = ''; // Hardcoded Neon EVM wallet address
+    const solanaPublicKey = new PublicKey(''); // Hardcoded Solana public key
     const amount = 10; // Amount to transfer
 
     try {
